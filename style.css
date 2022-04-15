@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main {
+    align-items: center;
+    text-align: center;
+}
+
+
+body {
+    font-size: 100%;
+    background: #000000;
+}
+
+section > .perfis {
+    width: 700px;
+}
+
+.subtitulo1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 61px;
+    margin-top: 73px;
+
+}
+
+.logo1 {
+    width: 229px;
+    height: 68px;
+    margin-top: 42px;
+    margin-left: 560px;
+}
+
+p {
+    color: #9C9C9C;
+    text-align: center;
+ }   
+
+.perfis {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.perfis > div {
+    width: 160px;
+}
+
+.perfis > div:hover {
+    overflow: hidden;
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.gerenciarperfis {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 206px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 102px;
+    margin-left: 580px;
+    margin-bottom: 88px;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+
+.gerenciarperfis:hover {
+    background-color: #9C9C9C;
+
+}
+
