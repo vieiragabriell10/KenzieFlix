@@ -17,9 +17,6 @@ body {
     background: #000000;
 }
 
-section > .perfis {
-    width: 700px;
-}
 
 .subtitulo1 {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -43,13 +40,10 @@ p {
  }   
 
 .perfis {
-    display: flex;
+    display:inline-flex;
     justify-content: center;
     gap: 20px;
-}
-
-.perfis > div {
-    width: 160px;
+    width: 700px;
 }
 
 .perfis > div:hover {
